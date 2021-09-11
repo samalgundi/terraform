@@ -1,3 +1,8 @@
+# How to start with declarative infrastructure as code on IBM Cloud
+
+I decided to fork this repo https://github.com/Cloud-Schematics/terraform-ibm-observability and continue from there.
+
+
 # Observability services
 
 Observability services - gives you the visibility into the performance and health of your resources on IBM Cloud.  You can use these services to troubleshoot your apps and services, identify threats, detect performance issues, trigger alerts and more.  IBM Cloud offers the following observabilty services, to solve you logging and monitoring needs:
