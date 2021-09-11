@@ -40,7 +40,7 @@ module "activity_tracker_instance" {
 }
   
 resource "ibm_database" "test_acc" {
-  resource_group_id = data.ibm_resource_group.group.id
+  resource_group_id = data.ibm_resource_group.rg.id
   name              = "demo-postgres"
   service           = "databases-for-postgresql"
   plan              = "standard"
