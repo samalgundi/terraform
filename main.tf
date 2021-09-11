@@ -44,7 +44,7 @@ resource "ibm_database" "test_acc" {
   name              = "demo-postgres"
   service           = "databases-for-postgresql"
   plan              = "standard"
-  location          = "eu-gb"
+  region            = var.region
   adminpassword     = "adminpassword"
 
   tags = ["tag1", "tag2"]
