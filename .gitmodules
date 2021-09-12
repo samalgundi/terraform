@@ -1,0 +1,3 @@
+[submodule "terraform-ibm-cloudant"]
+	path = terraform-ibm-cloudant
+	url = git@github.com:terraform-ibm-modules/terraform-ibm-cloudant.git
