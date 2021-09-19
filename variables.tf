@@ -100,11 +100,6 @@ variable "delete_timeout" {
   default     = null
 }
 
-variable "resource_group_id" {
-  description = "Enter resource group name"
-  type        = string
-}
-
 variable "service_endpoints" {
   description = "Types of the service endpoints. Possible values are 'public', 'private', 'public-and-private'."
   type        = string
