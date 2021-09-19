@@ -42,9 +42,9 @@ module "activity_tracker_instance" {
 module "cloudant-instance" {
 
   //Uncomment the following line to point the source to registry level
-  //source = "terraform-ibm-modules/cloudant/ibm//modules/instance"
+  source = "terraform-ibm-modules/cloudant/ibm//modules/instance"
 
-  source                  = "https://github.com/terraform-ibm-modules/terraform-ibm-cloudant/tree/main/modules/instance"
+  //source                  = "https://github.com/terraform-ibm-modules/terraform-ibm-cloudant/tree/main/modules/instance"
   provision               = var.provision
   provision_resource_key  = var.provision_resource_key
 
