@@ -44,7 +44,7 @@ module "cloudant-instance" {
   //Uncomment the following line to point the source to registry level
   //source = "terraform-ibm-modules/cloudant/ibm//modules/instance"
 
-  source                  = "github.com/terraform-ibm-modules/terraform-ibm-cloudant/tree/main/examples/instance"
+  source                  = "github.com/terraform-ibm-modules/terraform-ibm-cloudant"
   provision               = var.provision
   provision_resource_key  = var.provision_resource_key
 
