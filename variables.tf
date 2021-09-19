@@ -105,11 +105,6 @@ variable "resource_group_id" {
   type        = string
 }
 
-variable "region" {
-  description = "Provisioning Region"
-  type        = string
-}
-
 variable "service_endpoints" {
   description = "Types of the service endpoints. Possible values are 'public', 'private', 'public-and-private'."
   type        = string
