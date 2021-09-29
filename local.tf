@@ -5,4 +5,5 @@ locals {
   default_tags                       = ["template_source: schematics-solution", "template: terraform-ibm-observability", "template_version: 1.0"]
   tags                               = concat(local.default_tags, tolist(setsubtract(split(",", var.observability_tags), [""])))
   is_bind_observability_resource_key = true
+  parameters                         = (var.parameters != null ? var.parameters : null)
 }
