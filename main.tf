@@ -40,6 +40,8 @@ module "activity_tracker_instance" {
 }
   
 module "cloudant-instance" {
+  
+  count                   = 0
 
   //Uncomment the following line to point the source to registry level
   //source = "terraform-ibm-modules/cloudant/ibm//modules/instance"
